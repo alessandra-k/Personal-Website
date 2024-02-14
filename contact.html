@@ -1,0 +1,75 @@
+<!--Student name: Alessandra Prunzel Kittlaus
+    File name: Assignment 1
+    Date: 06/11/2023
+    Section: CST8285_331
+    Brief Description: This webpage serves as a "Contact Me" page for Alessandra Prunzel Kittlaus website. Visitors can use the provided form to get in touch regarding job opportunities, project collaborations, or general inquiries.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alessandra Prunzel Kittlaus">
+    <title>Contact me</title>
+
+    <link rel="stylesheet" type="text/css" href="assignment1.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navContent">
+        <a href="index.html">Home Page</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div id="contactHeader">
+      <p>
+        I'd love to hear from you. Whether it's about job opportunities, project
+        collaborations, or just to say hello, please feel free to get in touch
+        by filling out the form below.<br>
+        Your message is important to me, and I'll get back to you as soon as
+        possible. <br>
+        <span> Thank you for reaching out! &#128513;</span>
+      </p>
+    </div>
+
+    <div id="formContainer">
+      <form method="post" action="assignment1.php" autocomplete="off">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <p>
+          <textarea
+            name="message"
+            id="message"
+            cols="112"
+            rows="8"
+            placeholder="Message"
+          ></textarea>
+        </p>
+        <div id="submitButton">
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+
+    <div id="footerContainer">
+        <div class="socialMedia">
+          <a href="https://github.com/alessandra-k" target="_blank">
+            <img src="pictures/github.png" alt="githubProfile"></a>
+        </div>
+        <div class="socialMedia">
+          <a href="https://www.instagram.com/alessandraprunzel/" target="_blank">
+            <img src="pictures/instagram.png" alt="instagramProfile"></a>
+        </div>
+        <div class="socialMedia">
+          <a
+            href="https://www.linkedin.com/in/alessandrakittlaus/"
+            target="_blank">
+            <img src="pictures/linkedin.png" alt="linkedinProfile"></a>
+        </div>
+      </div>
+  </body>
+</html>

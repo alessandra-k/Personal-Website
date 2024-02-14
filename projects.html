@@ -1,0 +1,142 @@
+<!--Student name: Alessandra Prunzel Kittlaus
+    File name: Assignment 1
+    Date: 06/11/2023
+    Section: CST8285_331
+    Brief Description: This "projects.html" webpage showcases a collection of projects. It offers navigation experience, allowing users to explore project details using "Previous" and "Next" buttons.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alessandra Prunzel Kittlaus">
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="assignment1.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navContent">
+        <a href="index.html">Home Page</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div id="projectsHeader">
+      <h1>Projects</h1>
+    </div>
+
+    <div id="projectsGeneralContainer">
+      <div id="projectsContainer">
+        <div class="project">
+          <div class="pictureBox">
+            <img src="projects/bookstoreProject.jpg" alt="Foto 1">
+          </div>
+
+          <div class="descriptionBox">
+            <p>
+              <span class="projectTitle">Bookstore Management System</span>
+              <br>
+              Database Systems, Algonquin College - Ottawa ON
+            </p>
+            <ul>
+              <li>
+                Defined and subsequently created a Bookstore Management System
+                database in Microsoft Access, using SQL queries to establish
+                tables, attributes, constraints, and relationships.
+              </li>
+              <li>
+                Developed forms and reports within Microsoft Access to
+                facilitate data entry, updates, and deletions, using
+                event-driven programming for actions.
+              </li>
+              <li>
+                Developed reports using SQL queries, Database backup, and ERD
+                diagrams using MySQL.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="pictureBox">
+            <img src="projects/metalRodProject.jpg" alt="Foto 2">
+          </div>
+
+          <div class="descriptionBox">
+            <p>
+              <span class="projectTitle"> Rod Length Verification Program</span>
+              <br>
+              Computer Programming, Ottawa ON
+            </p>
+            <ul>
+              <li>
+                Developed a Java program for verifying metal rod lengths within
+                a tolerance.
+              </li>
+              <li>
+                Created static final variables EPSILON and TARGET_LENGTH for
+                tolerance checking; Input validation to handle non-numeric
+                inputs; A loop to allow input of an arbitrary number of rod
+                measurements; UML diagram creation; Eclipse.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="pictureBox">
+            <img src="projects/website.jpg" alt="Foto 2">
+          </div>
+
+          <div class="descriptionBox">
+            <p>
+              <span class="projectTitle"> Personal Website </span> <br>
+              Web Programming, Ottawa ON
+            </p>
+            <ul>
+              <li>
+                Developed a website from scratch using HTML, CSS, and
+                JavaScript.
+              </li>
+              <li>
+                Designed web structure with four HTML pages, ensuring a
+                responsive layout.
+              </li>
+              <li>
+                Followed proper folder structure, naming conventions, and code
+                structure for clarity and readability.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projectButtons">
+      <button id="prevButton">Previous</button>
+      <button id="nextButton">Next</button>
+    </div>
+
+    <div id="footerContainer">
+        <div class="socialMedia">
+          <a href="https://github.com/alessandra-k" target="_blank"
+            ><img src="pictures/github.png" alt="githubProfile"></a>
+        </div>
+        <div class="socialMedia">
+          <a href="https://www.instagram.com/alessandraprunzel/" target="_blank"
+            ><img src="pictures/instagram.png" alt="instagramProfile"></a>
+        </div>
+        <div class="socialMedia">
+          <a
+            href="https://www.linkedin.com/in/alessandrakittlaus/"
+            target="_blank"
+            ><img src="pictures/linkedin.png" alt="linkedinProfile"></a>
+        </div>
+      </div>
+
+    <script src="interaction.java"></script>
+  </body>
+</html>
