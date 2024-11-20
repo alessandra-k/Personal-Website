@@ -13,7 +13,7 @@ This is a **responsive and interactive portfolio website** developed to showcase
 ### 🎨 **HTML & CSS Styling**
 - Designed with **basic CSS** for a clean and professional appearance, focusing on presenting information clearly and consistently.
 
-###  **Responsiveness**
+###    **Responsiveness**
 - Fully responsive design adapts seamlessly to different screen sizes, ensuring usability across devices, from desktops to smartphones.
 
 ### ✉️ **Contact Form**
@@ -43,10 +43,10 @@ Here’s a quick look at the key sections of the website:
 ---
 
 ## **Future Improvements**
-Adding form validation for the Contact page.
-Hosting the website online for easy access.
-Enhancing the visual appeal with animations and transitions.
-Optimizing the website for faster load times.
+- Adding form validation for the Contact page.
+- Hosting the website online for easy access.
+- Enhancing the visual appeal with animations and transitions.
+- Optimizing the website for faster load times.
 
 ## **Author**
 👩‍💻 Alessandra Prunzel Kittlaus
